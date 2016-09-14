@@ -1,4 +1,8 @@
 ---
+test:
+  override:
+    - echo "test"
+
 deployment:
   production:
     branch: master
