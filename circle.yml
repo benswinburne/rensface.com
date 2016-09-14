@@ -1,0 +1,7 @@
+---
+deployment:
+  production:
+    branch: master
+    commands:
+      - aws s3 sync . s3://rensface.com --delete
+
