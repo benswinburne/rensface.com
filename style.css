@@ -1,0 +1,10 @@
+.container{
+	box-sizing: border-box;
+	height: 100vh;
+	padding: 100px;
+	text-align: center;
+}
+
+img{
+	height: 100%;
+}
